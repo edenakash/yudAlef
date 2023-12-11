@@ -6,17 +6,17 @@ public class Lesson4Exerscises {
 		
 		/* Scanner scan = new Scanner(System.in);
 
-        // קליטת שלושה שמות מהמשתמש
-        System.out.print("הזן שם ראשון: ");
+
+        System.out.print("Enter first name ");
         String name1 = scan.nextLine();
 
-        System.out.print("הזן שם שני: ");
+        System.out.print(" enter second name ");
         String name2 = scan.nextLine();
 
-        System.out.print("הזן שם שלישי: ");
+        System.out.print("enter third name");
         String name3 = scan.nextLine();
 
-        // מיון והדפסת השמות בסדר עולה מבחינת סדר מילוני
+        
         if (name1.compareTo(name2) <= 0 && name1.compareTo(name3) <= 0) {
             System.out.println(name1);
             if (name2.compareTo(name3) <= 0) {
@@ -49,11 +49,11 @@ public class Lesson4Exerscises {
 		//exe2
 		/* Scanner scan = new Scanner(System.in);
 
-        // קליטת משפט מהמשתמש
+        
         System.out.print("הזן משפט הכולל 4 מילים: ");
         String sentence = scan.nextLine();
 
-        // חישוב והדפסת מספר התווים
+        
         int counter = sentence.length();
         System.out.println("the amount of letters: " + counter); */
 		
@@ -170,7 +170,7 @@ public class Lesson4Exerscises {
 
             
             if (isVowel(currentChar)) {
-                // החלפת האות בכוכבית (*)
+                
                 string2.setCharAt(i, '*');
             }
         }
